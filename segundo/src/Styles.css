@@ -1,0 +1,21 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  background-color: lightgreen;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.header img {
+  width: 250px;
+  height: 150px;
+  margin: 50px;
+}
