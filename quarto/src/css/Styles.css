@@ -1,0 +1,51 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: lightcoral;
+}
+
+.header img {
+  min-width: 20%;
+  max-width: 40%;
+}
+
+.header h1 {
+  width: 210%;
+  text-align: center;
+  padding-top: 50px;
+  color: white;
+}
+
+.header h2 {
+  width: 210%;
+  text-align: center;
+  color: whitesmoke;
+  margin-top: 20px;
+}
+
+.container {
+  display: flex;
+  direction: row;
+}
+
+.container .mensagens {
+  width: 30vw;
+  padding: 20px;
+  margin: 5px;
+  height: 70vh;
+  background-color: rgb(87, 44, 78);
+  color: white;
+}
+
+.container .conteudo {
+  width: 70vw;
+  padding: 20px;
+  margin: 5px;
+  height: 70vh;
+}
