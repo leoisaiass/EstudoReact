@@ -1,9 +1,20 @@
-export default function Mensagens() {
+import { useState } from "react";
+export default function Mensagens(props) {
+  const [produto, setProdutos] = useState("");
+
   return (
-    <div className="mensagens">
-      <h2>Título da mensagem</h2>
-      <h3>Autor</h3>
-      <p>Mensagem</p>
+    <div classname="mensagens">
+      {props.info.map((m, i) => (
+        <div key={i}>
+          <h4>
+            Titulo da Mensagem
+            <br />
+            {m.titulo}
+          </h4>
+          <h3>Autor: {m.autor}</h3>
+          <p>Mensagem: {m.mensagem}</p>
+        </div>
+      ))}
     </div>
   );
 }
